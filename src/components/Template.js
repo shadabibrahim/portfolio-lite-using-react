@@ -1,10 +1,10 @@
 import React from "react";
 
-let Template = ({heading,para})=>{
+let Template = ({title,description})=>{
     return(
         <div className="container">
-            <h1>{heading}</h1>
-            <p>{para}</p>
+            <h1>{title}</h1>
+            <p>{description}</p>
             <hr />
         </div>
     );
